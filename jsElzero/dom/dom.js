@@ -51,14 +51,18 @@ image.removeAttribute ('alt') // remove attribute alt */
 
 //////******************************************* innerHTML- outerHTML */**********************************************
 
-let container = document.getElementById('container');
+/* let container = document.getElementById('container');
 //console.log(container.outerHTML) // afficher tt les elemt sous elt d'id conatainer, expl : tt les elemt de div et les elmt sous elmt div
 //console.log(container.innerHTML) // afficher jst les elmt sous id conatainer ctt , l'elmt de id conatainer n'affiche pas
 //container.outerHTML ='<p> hellooooo</p>' // changer tt le div et le remplacer avec <p>
 container.innerHTML +='<p> hellooooo</p>' // ajouter un <p> dans le <div>
 container.innerHTML ='<p> hellooooo</p>' // ajouter un jst <p> dans le <div> et effacer les autre contenu de div
-container.innerText=kkkkkkkkkkkk
-console.log(container)
+container.innerText='kkkkkkkkkkkk'// ajouter un text
+container.outerText='kkkkkkkkkkkk'// remplacer elmt principale par text
+
+console.log(container) */
+//////******************************************* css style */**********************************************
+
 
 
 
