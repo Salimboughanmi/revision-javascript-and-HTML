@@ -30,3 +30,8 @@ console.log(title)
 // get attributes :  afficher les attributes  
 //set attributes :ajouter ou modifier les attributes
 //remove attributes : afficher les attributes
+
+let image = document.getElementById("img")
+console.log(image.alt)
+console.log(image.src)
+console.log(image.className)
