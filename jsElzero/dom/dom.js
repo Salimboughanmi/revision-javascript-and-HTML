@@ -64,9 +64,32 @@ console.log(container) */
 //////***************************************************** css style */**********************************************
 
 
- let container = document.getElementById('container')
+/*  let container = document.getElementById('container')
  container.style.backgroundColor='yellow'
 container.style.color='red'
 
 container.style.padding ='10px'
 container.style.margin='30px'
+// ou un autre methode 
+container.style.cssText =`background : green ; color : yellow` */
+
+//////***************************************************** create element by javascript */**********************************************
+// create elt
+
+let container = document.createElement('div')
+let head = document.createElement('h3')
+let image = document.createElement('img')
+
+//2-ajouter contenu
+
+let content = document.createTextNode("create element by javascript with create node text")
+image.src = "../img/2.jpg"
+
+//3-ajouter element dans element
+
+head.appendChild(content)
+container.appendChild(head)
+container.appendChild(image)
+console.log(container)
+
+document.body.appendChild(container)
