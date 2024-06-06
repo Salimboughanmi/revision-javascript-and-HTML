@@ -76,7 +76,7 @@ container.style.cssText =`background : green ; color : yellow` */
 //////***************************************************** create element by javascript */**********************************************
 // create elt
 
-let container = document.createElement('div')
+/* let container = document.createElement('div')
 let head = document.createElement('h3')
 let image = document.createElement('img')
 
@@ -91,5 +91,23 @@ head.appendChild(content)
 container.appendChild(head)
 container.appendChild(image)
 console.log(container)
+container.style.background = "green"
+document.body.appendChild(container) */
 
-document.body.appendChild(container)
+//////***************************************************** events */**********************************************
+
+let btn = document.getElementById("btn")
+function aalert() {
+    window.alert("alert pour salim")
+}
+btn.onclick= aalert
+//btn.onclick = () => console.log("btn clicked")
+
+
+btn.addEventListener('click',function() { document.body.style.background = "red"})
+
+btn.addEventListener('click', function(){btn.style.background = "blue"} )
+
+btn.addEventListener('click', function(){ btn.style.color ='white'}) //=> utuliser addeventlisner quand je veux faire plusieure evenement par contre onclick pour une seul evenement
+
+//btn.addEventListener('click', aalert)
