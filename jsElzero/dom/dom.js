@@ -109,5 +109,4 @@ btn.addEventListener('click',function() { document.body.style.background = "red"
 btn.addEventListener('click', function(){btn.style.background = "blue"} )
 
 btn.addEventListener('click', function(){ btn.style.color ='white'}) //=> utuliser addeventlisner quand je veux faire plusieure evenement par contre onclick pour une seul evenement
-
-//btn.addEventListener('click', aalert)
+//btn.addEventListener('click', aalert)                             // => remarque btn.onevent  et dans addEventListener btn.addEventListener('event sans on',function(){]}

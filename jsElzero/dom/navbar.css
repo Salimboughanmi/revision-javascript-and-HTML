@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+ 
+.container{
+    height: 100vh;
+    width: 120px;
+    background-color: rgb(145, 21, 21);
+  padding: 10px;
+  color: white;
+}
+.container p{
+    padding: 10px;
+}
+
+button{
+    background-color: rgb(145, 21, 21);
+    color: aqua;
+    border-radius: 10px;
+    border: none;
+}
+
+.container p:hover, button:hover {
+    background-color: rgb(196, 183, 9);
+    cursor: pointer;
+   
+}
+
+#close{
+    position: absolute;
+    left: 150px;
+}
+
+.hide{
+    display: none;
+}
