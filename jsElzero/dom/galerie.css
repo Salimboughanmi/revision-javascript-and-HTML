@@ -1,0 +1,17 @@
+.pics1 img{
+    height: 150px ; 
+    width: 180px;
+    border: 5px solid #be2c2c;
+}
+
+.pics1 img:hover{
+    cursor: pointer;
+    border: 5px solid #43971c;
+}
+
+.main img{
+    height: 250px;
+    width: 780px;
+    border: 5px solid #be2c2c;
+
+}

@@ -11,12 +11,6 @@ btnClose.onclick = function() {
     container.classList.add("hide");
 }
 
-
-
-
-
-
-
 btnOpen.onclick = function() {
    btnOpen.classList.add("hide");
    container.classList.remove("hide");

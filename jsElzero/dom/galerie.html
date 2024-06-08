@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galerie.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="galerie">
+    <div class="pics1">
+        <img src="../img/1.jpg" onclick = "mainpic.src = img1.src"  name ="img1">
+        <img src="../img/2.jpg" onclick = "mainpic.src = img2.src"  name ="img2" >
+        <img src="../img/3.jpg"  onclick = "mainpic.src = this.src" >
+        <img src="../img/1.jpg" onclick = "mainpic.src = this.src" >
+    </div>
+    <div class="main">
+        <img src="../img/1.jpg" name ="mainpic">
+    </div>
+
+    <div class="pics1">
+        <img src="../img/1.jpg" onmouseenter = "mainpic.src = img1.src" >
+        <img src="../img/2.jpg" onmouseenter = "mainpic.src = img2.src" >
+        <img src="../img/3.jpg"  onmouseenter = "mainpic.src = this.src" >
+        <img src="../img/1.jpg" onmouseenter = "mainpic.src = this.src" >
+    </div>
+
+</div>
+<script src='galerie.js'></script>
+</body>
+</html>
