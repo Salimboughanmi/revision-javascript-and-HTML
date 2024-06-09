@@ -16,3 +16,7 @@ location.href = "https://www.w3schools.com/bootstrap/"
 location.hostname = "www.w3schools.com"
 location.pathname = "/bootstrap/" */
 location.href = "fb.com" // changer to another link
+
+
+//reload
+location.reload();
