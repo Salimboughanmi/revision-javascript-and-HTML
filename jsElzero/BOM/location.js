@@ -20,3 +20,6 @@ location.href = "fb.com" // changer to another link
 
 //reload
 location.reload();
+
+location.assign('http://localhost') // changer to another link and keep data in previous link
+location.replace('http://localhost') // changer to another link and cant back previous link 
