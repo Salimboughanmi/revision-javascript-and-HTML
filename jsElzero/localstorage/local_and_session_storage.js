@@ -1,3 +1,4 @@
+//la deference entre local storage et session storage (local storage only local peranante) et session temporaire dans la session 
 // local storage = 5 MB
 //sessionStorage = 5 MB -10 MB
 //localStorage = data enregistrer dans domaine (url)
