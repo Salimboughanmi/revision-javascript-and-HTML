@@ -1,4 +1,4 @@
-//la deference entre local storage et session storage (local storage only local peranante) et session temporaire dans la session 
+/* //la deference entre local storage et session storage (local storage only local peranante) et session temporaire dans la session 
 // local storage = 5 MB
 //sessionStorage = 5 MB -10 MB
 //localStorage = data enregistrer dans domaine (url)
@@ -36,5 +36,14 @@ console.log(localStorage.key(0))
 
 localStorage.removeItem('number') // remove item by key
 
-localStorage.clear() // remove all item in local storage
+localStorage.clear() // remove all item in local storage */
 
+input = document.getElementById('input')
+
+if (localStorage.length > 0) {
+    input.value = localStorage.getItem('ahla')
+}
+
+input.onkeyup = function (){
+   localStorage.setItem('ahla',input.value)
+}
