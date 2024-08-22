@@ -1,4 +1,4 @@
-let dateNow= new Date()
+/* let dateNow= new Date()
 console.log(dateNow)
 
 //get date and time
@@ -8,7 +8,18 @@ console.log(dateNow.getHours())
 console.log(dateNow.getMonth())
 console.log(dateNow.getMinutes())
 console.log(dateNow.getTimezoneOffset())
-console.log('####################################')
+console.log('####################################') */
 
-// set date and time
+//////////Generator Function
+/* 
+function* generateNumbers(){
+ yield 1;
+ yield 2;
+ yield 3;
+ yield 4;
 
+}
+let generator = generateNumbers();
+console.log(typeof generator) */
+
+// Modules Import And Export
