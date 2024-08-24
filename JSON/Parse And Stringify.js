@@ -16,3 +16,5 @@ MyJsObject["age"] = "20"
  //console.log(MyJsObject) 
 
  const MyJsonObjectToServer =JSON.stringify(MyJsObject) // convert a javascrpt value to a javascript object notation (JSON)
+ console.log(typeof MyJsonObjectToServer) // type object
+ console.log(MyJsonObjectToServer) // type object
