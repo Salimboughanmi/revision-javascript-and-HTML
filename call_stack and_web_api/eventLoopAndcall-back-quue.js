@@ -16,3 +16,8 @@ Story
     --Callback Queue Follow FIFO "First In First Out" Rule 
 
  */
+
+    console.log("one")
+    setTimeout(()=>{ console.log("three")}, 0)
+    setTimeout(()=>{ console.log("four")},0)
+    console.log("two")

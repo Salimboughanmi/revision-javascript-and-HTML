@@ -19,11 +19,11 @@ console.log(add) */
 console.log("***********************************  Higher Order Functions -  Reduce Practice************************")
 
 ///////////exercice remove @ from array and convert to string 
-let removeChart=["S","@","A","@","L","@","I","@","M"]
+/* let removeChart=["S","@","A","@","L","@","I","@","M"]
 
 let finalString = removeChart.filter(function(ele){
     return !ele.startsWith('@')
-})/* .join('') */.reduce((acc , current)=>acc+current) // reduce qui va retourner 1 seul resultat
+}).reduce((acc , current)=>acc+current) // reduce qui va retourner 1 seul resultat, on peut utuliser .join('') dans la place de .reduce 
 console.log(finalString)
 
 /////////////// longest word
@@ -33,3 +33,10 @@ let check = biggest.reduce(function(acc , current){
     return acc.length > current.length ? acc : current
 })
 console.log(check);
+ */
+console.log("***********************************   Higher Order Functions - ForEach And Practice************************")
+
+// changement sera just dans notre array
+
+
+
