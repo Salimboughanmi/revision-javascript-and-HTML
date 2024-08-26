@@ -17,7 +17,12 @@ Story
 
  */
 
-    console.log("one")
+  /*   console.log("one")
     setTimeout(()=>{ console.log("three")}, 0)
     setTimeout(()=>{ console.log("four")},0)
-    console.log("two")
+    console.log("two") */
+
+/* console.log(myVar)
+    let myVar = 100  */ // Uncaught ReferenceError: Cannot access 'myVar' before initialization
+   /*  let myVar = 100
+    setTimeout(()=>{ console.log(myVar)}, 0) */ // outpoot 100 vrai
