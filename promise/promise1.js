@@ -54,7 +54,7 @@ myPromisee.then(
   )   */
  //*-****************************************- Promise - Then, Catch And Finally******************************************
 
-  const myPromise = new Promise((resolveFunction , rejectFunction)=>{
+  /*  const myPromise = new Promise((resolveFunction , rejectFunction)=>{
     let employers =["salim " ,"fadi" ,"ahmed" , "saif" ];
     if (employers.length === 4 ) {
         resolveFunction(employers)
@@ -75,3 +75,5 @@ myPromise.then((resolvedValue)=> {resolvedValue.length = 2 ;
 
 } ,).then((resolvedValue)=>{ console.log(`the choose employee is ${resolvedValue}`)}).catch((rejectedReason)=> console.log(rejectedReason)) .finally(console.log("the operation is done"))
 
+ 
+ */
