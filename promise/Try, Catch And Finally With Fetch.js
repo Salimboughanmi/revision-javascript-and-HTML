@@ -57,4 +57,3 @@ async function fetchData(){
  }
  fetchData() 
 
- //"https://api.github.com/users/elzerowebschool/repos"
