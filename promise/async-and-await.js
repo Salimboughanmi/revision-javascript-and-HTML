@@ -59,10 +59,22 @@ getData().then((resolveValue)=>{
     } ,(rejectValue)=>{
         console.log("rejected " + rejectValue)
     } )   */
-/////////************************************************************* Await  ******************************/
+/////////************************************************************* Await  ***************************** */
 /* 
 Await
   - await works only inside async function
   - await make Javascript wait for the promise result
   - await is more elegant syntax of getting Promise result
 */
+
+let myPromise = new Promise((resolve , reject)=>{
+    setTimeout(()=>{ resolve("Iam the good promise")} , 3000)
+});
+
+async function readData(){
+    console.log("before affiche promise")
+   //await myPromise.then((resolvedValue)=>{console.log(`HI  ${resolvedValue}`)}).catch("catch my errorrrrr")
+   console.log(await myPromise)
+    console.log("after affiche promise")
+}
+readData()
