@@ -2,7 +2,7 @@
   Promise And XHR
 */
 
-const getData = (apiLink) => {
+/* const getData = (apiLink) => {
     return new Promise((resolve, reject) => {
       let myRequest = new XMLHttpRequest();
       myRequest.onload = function () {
@@ -24,4 +24,4 @@ const getData = (apiLink) => {
       return result;
     })
     .then((result) => console.log(result[0].name))
-    .catch((rej) => console.log(rej));
+    .catch((rej) => console.log(rej)); */

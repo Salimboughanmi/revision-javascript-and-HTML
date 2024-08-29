@@ -3,7 +3,7 @@
   - Return A Representation Of the Entire HTTP Response
 */
 
-fetch("https://api.github.com/users/elzerowebschool/repos")
+/* fetch("https://api.github.com/users/elzerowebschool/repos")
   .then((result) => {
     console.log(result);
     let myData = result.json();
@@ -16,7 +16,7 @@ fetch("https://api.github.com/users/elzerowebschool/repos")
   })
   .then((ten) => {
     console.log(ten[0].name);
-  });
+  }); */
 
 // const getData = (apiLink) => {
 //   return new Promise((resolve, reject) => {

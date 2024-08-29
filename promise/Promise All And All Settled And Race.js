@@ -1,0 +1,30 @@
+/* 
+Promise
+- All 
+- All Settled 
+- Race
+*/
+
+const myFirstPromise = new Promise((resolve ,rej)=>{
+    setTimeout(()=>{
+        rej("I am the first promise") 
+    } ,5000)
+} )
+
+const mySecondPromise = new Promise((resolve ,rej)=>{
+    setTimeout(()=>{
+        resolve("I am the second promise") 
+    }, 1000)
+} )
+
+const myThirdPromise = new Promise((resolve ,rej)=>{
+    setTimeout(()=>{
+        resolve("I am the third promise") 
+    } , 2000)
+} )
+
+Promise.all([myFirstPromise ,mySecondPromise ,myThirdPromise]).then((resolvedValue)=>{
+    console.log(resolvedValue)},
+((rejectedValue)=> console.log(`rejected promise : ${rejectedValue}`))
+)
+// si un promess reject , afficher just la peomess reject
