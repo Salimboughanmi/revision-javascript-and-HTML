@@ -66,9 +66,12 @@ Await
   - await make Javascript wait for the promise result
   - await is more elegant syntax of getting Promise result
 */
-
-let myPromise = new Promise((resolve , reject)=>{
-    setTimeout(()=>{ resolve("Iam the good promise")} , 3000)
+ 
+/* let myPromise = new Promise((resolve , reject)=>{
+    setTimeout(()=> resolve("Iam the good promise") , 3000
+   
+)
+reject (Error("i am the bad reject"))
 });
 
 async function readData(){
@@ -77,4 +80,4 @@ async function readData(){
    console.log(await myPromise)
     console.log("after affiche promise")
 }
-readData()
+readData()  */
