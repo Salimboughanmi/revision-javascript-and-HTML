@@ -5,7 +5,7 @@ Promise
 - Race
 */
 
-const myFirstPromise = new Promise((resolve ,rej)=>{
+/* const myFirstPromise = new Promise((resolve ,rej)=>{
     setTimeout(()=>{
         rej("I am the first promise") 
     } ,5000)
@@ -22,7 +22,7 @@ const myThirdPromise = new Promise((resolve ,rej)=>{
         resolve("I am the third promise") 
     } , 2000)
 } )
-
+ */
 /* Promise.all([myFirstPromise ,mySecondPromise ,myThirdPromise]).then((resolvedValue)=>{
     console.log(resolvedValue)},
 ((rejectedValue)=> console.log(`rejected promise : ${rejectedValue}`))
@@ -34,7 +34,7 @@ const myThirdPromise = new Promise((resolve ,rej)=>{
 ((rejectedValue)=> console.log(`rejected promise : ${rejectedValue}`))
 ) // afficher les fullfield and rejected dans array  */
 
-Promise.race([myFirstPromise ,mySecondPromise ,myThirdPromise]).then((resolvedValue)=>{
+/* Promise.race([myFirstPromise ,mySecondPromise ,myThirdPromise]).then((resolvedValue)=>{
     console.log(resolvedValue)},
 ((rejectedValue)=> console.log(`rejected promise : ${rejectedValue}`))
-) // le premier dans set out si rejected ou resolved qu'il affiche  (n'est pas dans un array)
+) */ // le premier dans set out si rejected ou resolved qu'il affiche  (n'est pas dans un array)
