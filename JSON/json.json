@@ -9,8 +9,8 @@
     "null": null,
     "number": 123,
     "object": {
-      "a": "b",
-      "c": "d"
+      "tn": "ariena",
+      "alg": "wahran"
     },
     "string": "Hello World"
   }

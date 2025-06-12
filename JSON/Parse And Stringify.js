@@ -2,7 +2,7 @@
  - JSON.parse=> convert text data to js Object
  - JSON.stringify=> convert JS object to JSON */
 
- const MyJsonObjectFromServer ='{"username" : "salim" ,"age":"30" }' ;
+ /* const MyJsonObjectFromServer ='{"username" : "salim" ,"age":"30" }' ;
  console.log(typeof MyJsonObjectFromServer) // type string
  console.log(MyJsonObjectFromServer) // type string
 
@@ -18,3 +18,6 @@ MyJsObject["age"] = "20"
  const MyJsonObjectToServer =JSON.stringify(MyJsObject) // convert a javascrpt value to a javascript object notation (JSON)
  console.log(typeof MyJsonObjectToServer) // type object
  console.log(MyJsonObjectToServer) // type object
+ */
+
+

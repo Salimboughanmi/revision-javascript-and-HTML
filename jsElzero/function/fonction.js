@@ -6,17 +6,20 @@ console.log( result )
 pro(200 ,10 , 20 ) */
 
 
-/* function product( price , texas , ads ) {
+/*  function product( price , texas , ads ) {
 let product = price + texas ; 
     let result = product + ads;
     
     
     return result ; 
  }
- let x = product(2080 ,10 , 20 ) 
- console.log(x)  */
+ let x = product(2080 ,20 , 20 ) 
 
- /* function calculAge(age){
+ console.log(x)   */
+
+
+
+/* function calculAge(age){
     age = age * 356
     return age
  }
@@ -80,8 +83,7 @@ var hello = function () {
  }  // res EST 0
 
   */
-
- /* function calcul(...numbers) { // array de nom numbers of numbers
+  /* function calcul(...numbers) { // array de nom numbers of numbers
    let result = 0 ;
    for (let index = 0; index < numbers.length; index++) {
      result += numbers[index]

@@ -13,7 +13,7 @@ Call Stack || Stack Trace
 Web API 
 -- Methods Available From The Environment => Browser */
 
-function multiply(a,b){
+/* function multiply(a,b){
     return a * b ;
 }
 function square(n){
@@ -26,4 +26,16 @@ function printSquare(n) {
 
 }
 printSquare(4)
-
+ */
+function one() {
+    console.log('one ');
+}
+function two() {
+    one();
+    console.log('two ');
+   
+}
+function three() {
+    two();
+    console.log('three ');
+}

@@ -17,9 +17,9 @@
 -Then 
 --- Takes 2 Optional Arguments [Callback For Success Or Failure]  */
 
- /*  const myPromise = new Promise((resolveFunction , rejectFunction)=>{
-    let connect = true ; // connect to data base
-    //let connect = false
+   const myPromise = new Promise((resolveFunction , rejectFunction)=>{
+    let connect = false ; // connect to data base
+  
     if (connect){
         resolveFunction ("connection established") // si resoved qu'est ce qu'il retour
     } else{
@@ -29,7 +29,7 @@
   (resolveValue)=>console.log(`Good ${resolveValue}`) ,  // si promise true qu'est ce que je fait , 1er tjrs fullfield
   (rejectValue)=>console.log(`bad ${rejectValue}`))  // si promise faux qu'est ce que je fait , 2 emme tjrs reject
 
-console.log(myPromise)   */
+console.log(myPromise)   
  
 
 /* console.log("*************************************************************************") */
